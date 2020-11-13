@@ -1,0 +1,15 @@
+{
+  "name": "discord-bot",
+  "version": "0.0.1",
+  "description": "döviz botu",
+  "main": "bot",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "norventh",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.4.1",
+    "tcmb-doviz": "^1.0.6"
+  }
+}
