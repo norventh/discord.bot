@@ -7,7 +7,7 @@ const prefix = '!';
 client.on('ready', () =>{
     console.log('Bot Aktif!')
     client.user.setStatus('idle');
-    client.user.setActivity('Hainleri', {type: 'WATCHING'});
+    client.user.setActivity('Herkesi', {type: 'LISTENING'});
 });
 
 client.on('message', message =>{
