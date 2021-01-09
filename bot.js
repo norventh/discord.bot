@@ -7,7 +7,7 @@ const prefix = '!';
 client.on('ready', () =>{
     console.log('Bot Aktif!')
     client.user.setStatus('idle');
-    client.user.setActivity('Herkesi', {type: 'LISTENING'});
+    client.user.setActivity('Borsa', {type: 'WATCHING'});
 });
 
 client.on('message', message =>{
@@ -20,12 +20,10 @@ client.on('message', message =>{
         message.channel.send('bezduk da bezduk');
     else if(message.content === ('inal hakkında ne düşünüyosun'))
         message.channel.send('PADİŞAHIM ÇOK YAŞA!');
+    else if(message.content === ('ismail hakkında ne düşünüyosun'))
+        message.channel.send('Allaha yakın bana uzak olsun');
 });
 
-client.on('message', message =>{
-    if(message.content == ('kek'))
-    message.channel.send('hepinizin mk')
-});
 
 
 client.on('message', message =>{
